@@ -43,7 +43,8 @@ node app.js
 
 ### Örnek olarak Türkiye hakkında bilgi almak için (ingilizce formatta yazılmalıdır)
 ```
-Terminalde prompt: countryName: çıktısının yanına "turkey" yazarak, http get isteği yaptığımız websitesinden türkiye hakkında veriler getiririz
+Terminalde prompt: countryName: çıktısının yanına "turkey" yazarak, http get isteği yaptığımız 
+websitesinden türkiye hakkında veriler getiririz
 ```
 ![image](https://user-images.githubusercontent.com/64845818/182033100-8e529da6-1605-43d9-9377-464cfbc5f695.png)
 
