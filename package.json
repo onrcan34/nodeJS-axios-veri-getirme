@@ -1,0 +1,17 @@
+{
+  "name": "axios_get_request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "d147_Promise1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^2.6.1",
+    "prompt": "^1.3.0"
+  }
+}
