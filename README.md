@@ -56,7 +56,7 @@ Aşağıdaki çıktı turkey girdisinin bir sonucudur.
 
 ### Kullanıcıya ipucu olarak verilen ülkeler renkli şekilde terminalde görüntülenmektedir.
 ```
-Listelenen ülkeler arasında iki veya daha fazla isimli ülke varsa sadece ilk kelimeyi yazma yeterlidir.
+Listelenen ülkeler arasında iki veya daha fazla isimli ülke varsa sadece ilk kelimeyi yazmak yeterlidir.
 ```
 ![image](https://user-images.githubusercontent.com/64845818/182033135-9c835f19-af40-4ccd-9a45-fcfbb58e5f00.png)
 
