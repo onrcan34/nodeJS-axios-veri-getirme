@@ -42,12 +42,16 @@ node app.js
 ![image](https://user-images.githubusercontent.com/64845818/182032970-6b684a6a-b4f1-4546-bfdf-342e79c0c866.png)
 
 ### Örnek olarak Türkiye hakkında bilgi almak için (ingilizce formatta yazılmalıdır)
-
+```
 Terminalde prompt: countryName: çıktısının yanına "turkey" yazarak, http get isteği yaptığımız websitesinden türkiye hakkında veriler getiririz
 ```
 ![image](https://user-images.githubusercontent.com/64845818/182033100-8e529da6-1605-43d9-9377-464cfbc5f695.png)
-![image](https://user-images.githubusercontent.com/64845818/182033394-87f938cc-eead-4dcf-80cb-877a43ac73c3.png)
+
 ```
+Aşağıdaki çıktı turkey girdisinin bir sonucudur.
+```
+![image](https://user-images.githubusercontent.com/64845818/182033394-87f938cc-eead-4dcf-80cb-877a43ac73c3.png)
+
 
 ### Kullanıcıya ipucu olarak verilen ülkeler renkli şekilde terminalde görüntülenmektedir.
 Listelenen ülkeler arasında iki veya daha fazla isimli ülke varsa sadece ilk kelimeyi yazma yeterlidir.
