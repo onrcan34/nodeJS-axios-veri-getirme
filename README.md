@@ -1,23 +1,18 @@
 # nodeJS-axios-veri-getirme
-axios ile https isteği yaparak ülke verisi getiren konsol uygulaması
-
-# nodeJS-axios-veri-getirme
 NodeJS ve npm paketlerinden axios, prompt ve chalk kullanılarak oluşturulan bir konsol uygulaması
-NodeJS ve npm paketlerinden axios paketi ile http isteği, chalk paketi ile konsolda renkli çıktılar oluşturan kullanılarak rehber uygulaması oluşturmak.
 
 # Getting Started - Proje Hakkında
 Bu proje nodeJS kullanılarak geliştirmiştir. Projemizde npm paketlerinden axios ve prompt kullanılarak kullanıcı tarafından girilen ülke ismi girdisi ile http isteği gönderilen bir konsol uygulaması oluşturulmuştur. Bu konsol uygulamasında kullanıcı terminalde prompt: countryName: çıktısını gördükten sonra buraya verisini görmek istediği ülke ismini yazmalıdır. Program ilk olarak çalıştırıldığında örnek olarak rastgele sekiz tane ülkeyi kullanıcıya ipucu vermek amacı ile konsola yazdırır. Kullanıcı ister bu ülkelerden bir tanesini yazar isterse country.txt dosyası içerisinde bulunan ülkelerden bir tanesini yazarak http request işlemini başlatabilir. 
 ```
 NOT!!!
-İki veya daha fazla kelimden oluşan ülke isimleri için sadece ilk kelimenin girdi olarak verilmesi yeterlidir. kisisil, goster, listele, temizle ve sil komutları ile bir rehber uygulaması tasarlanmaktadır. Bu komutları yargs paketi ile renklendirmeleri ise chalk paketi ile 
-kodlanmıştır.
+İki veya daha fazla kelimden oluşan ülke isimleri için sadece ilk kelimenin girdi olarak verilmesi yeterlidir.
 ```
 
 # Prerequisites - Gereklilikler
 | Gerekli Paket ve Modüller | İndirme İşlemi |
 | ------ | ------ |
 | node module | https://nodejs.org/en/download/ |
-| npm file | npm install |
+| all npm packages | npm install |
 
 # Installing - Kurulum
 
@@ -39,17 +34,22 @@ npm i
 ```
 ![image](https://user-images.githubusercontent.com/64845818/182032695-fa1c572f-f776-4d47-b077-9328bc60fb2a.png)
 
-node app.js help
+
+### Konsol uygulamamızı çalıştırmak için
 ```
-![image](https://user-images.githubusercontent.com/64845818/178819255-294af9b2-132b-486f-ab2a-75670280771e.png)
-### Rehber projesi ekle komutunu çalıştırmak için
+node app.js 
 ```
-node app.js ekle --isim="aras" --tel="21412412"
+![image](https://user-images.githubusercontent.com/64845818/182032970-6b684a6a-b4f1-4546-bfdf-342e79c0c866.png)
+
+### Örnek olarak Türkiye hakkında bilgi almak için (ingilizce formatta yazılmalıdır)
 ```
-![image](https://user-images.githubusercontent.com/64845818/178820116-44509c69-ffd2-4ace-a8c6-002f57247649.png)
-### Rehber projesi listele komutunu çalıştırmak için
+Terminalde prompt: countryName: çıktısının yanına "turkey" yazarak, http get isteği yaptığımız websitesinden türkiye hakkında veriler getiririz.
+turkey
 ```
-node app.js listele
-```
-![image](https://user-images.githubusercontent.com/64845818/178820694-29168715-4be9-4163-9af6-370aeebf0fbd.png)
+![image](https://user-images.githubusercontent.com/64845818/182033100-8e529da6-1605-43d9-9377-464cfbc5f695.png)
+
+### Kullanıcıya ipucu olarak verilen ülkeler renkli şekilde terminalde görüntülenmektedir.
+Listelenen ülkeler arasında iki veya daha fazla isimli ülke varsa sadece ilk kelimeyi yazma yeterlidir.
+![image](https://user-images.githubusercontent.com/64845818/182033135-9c835f19-af40-4ccd-9a45-fcfbb58e5f00.png)
+
 
